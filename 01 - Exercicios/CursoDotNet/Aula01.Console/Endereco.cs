@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Aula01.Console;
+﻿namespace Aula01.Console;
 
 internal class Endereco
 {

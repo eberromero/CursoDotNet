@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{B4BB9B4E-453D-2B38-40D3-E76AF315A18E}|Aula01.Console\\Aula01.Console.csproj|solutionrelative:aula01.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4BB9B4E-453D-2B38-40D3-E76AF315A18E}|Aula01.Console\\Aula01.Console.csproj|c:\\estudos\\dotnet\\01 - exercicios\\cursodotnet\\aula01.console\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4BB9B4E-453D-2B38-40D3-E76AF315A18E}|Aula01.Console\\Aula01.Console.csproj|solutionrelative:aula01.console\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4BB9B4E-453D-2B38-40D3-E76AF315A18E}|Aula01.Console\\Aula01.Console.csproj|c:\\estudos\\dotnet\\01 - exercicios\\cursodotnet\\aula01.console\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4BB9B4E-453D-2B38-40D3-E76AF315A18E}|Aula01.Console\\Aula01.Console.csproj|solutionrelative:aula01.console\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\01 - Exercicios\\CursoDotNet\\Aula01.Console\\Endereco.cs",
+              "RelativeDocumentMoniker": "Aula01.Console\\Endereco.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\01 - Exercicios\\CursoDotNet\\Aula01.Console\\Endereco.cs",
+              "RelativeToolTip": "Aula01.Console\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T16:51:52.032Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +41,9 @@
               "RelativeDocumentMoniker": "Aula01.Console\\Program.cs",
               "ToolTip": "C:\\Estudos\\DotNet\\01 - Exercicios\\CursoDotNet\\Aula01.Console\\Program.cs",
               "RelativeToolTip": "Aula01.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-05T16:15:22.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\01 - Exercicios\\CursoDotNet\\Aula01.Console\\Pessoa.cs",
-              "RelativeDocumentMoniker": "Aula01.Console\\Pessoa.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\01 - Exercicios\\CursoDotNet\\Aula01.Console\\Pessoa.cs",
-              "RelativeToolTip": "Aula01.Console\\Pessoa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T12:05:58.981Z",
               "EditorCaption": ""
             }
           ]
