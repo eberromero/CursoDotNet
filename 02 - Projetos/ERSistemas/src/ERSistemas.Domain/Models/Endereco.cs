@@ -1,11 +1,11 @@
-﻿using ERSistemas.Console.Enums;
+﻿using ERSistemas.Domain.Enums;
 
-namespace ERSistemas.Console.Models;
+namespace ERSistemas.Domain.Models;
 
-internal class Endereco
+public class Endereco
 {
     public Guid Id { get; set; } = Guid.NewGuid();
-    public TipoEndereco TipoEndereco { get; set; } = new TipoEndereco();
+    public TipoEndereco TipoEndereco { get; set; }
     public string Nome { get; set; } = string.Empty;
     public string CEP { get; set; } = string.Empty;
     public string Logradouro { get; set; } = string.Empty;

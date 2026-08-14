@@ -1,8 +1,8 @@
-﻿using ERSistemas.Console.Enums;
+﻿using ERSistemas.Domain.Enums;
 
-namespace ERSistemas.Console.Models;
+namespace ERSistemas.Domain.Models;
 
-internal class Contato
+public class Contato
 {
     public Guid Id { get; set; } = Guid.NewGuid();
     public string Nome { get; set; } = string.Empty;

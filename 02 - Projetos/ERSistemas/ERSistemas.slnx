@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="src/ERSistemas.Console/ERSistemas.Console.csproj" />
+  <Folder Name="/docs/" />
+  <Folder Name="/src/">
+    <Project Path="src/ERSistemas.Console/ERSistemas.Console.csproj" />
+    <Project Path="src/ERSistemas.Domain/ERSistemas.Domain.csproj" Id="1ab8d78e-4ccb-4470-b17d-6c2c726fbb56" />
+  </Folder>
+  <Folder Name="/tests/" />
 </Solution>

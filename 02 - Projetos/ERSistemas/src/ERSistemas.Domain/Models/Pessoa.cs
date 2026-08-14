@@ -1,8 +1,8 @@
-﻿using ERSistemas.Console.Models;
+﻿using ERSistemas.Domain.Enums;
 
-namespace ERSistemas.Console;
+namespace ERSistemas.Domain.Models;
 
-internal class Pessoa
+public class Pessoa
 {
     public Guid Id { get; set; } = Guid.NewGuid();
     public TipoDocumento TipoDocumento { get; set; }

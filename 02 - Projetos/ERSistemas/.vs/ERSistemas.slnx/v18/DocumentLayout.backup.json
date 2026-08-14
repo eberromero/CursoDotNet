@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F96E2999-EC06-4D81-BBF5-8CA42C21FC9F}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F96E2999-EC06-4D81-BBF5-8CA42C21FC9F}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|solutionrelative:src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|solutionrelative:src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB8D78E-4CCB-4470-B17D-6C2C726FBB56}|src\\ERSistemas.Domain\\ERSistemas.Domain.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.domain\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AB8D78E-4CCB-4470-B17D-6C2C726FBB56}|src\\ERSistemas.Domain\\ERSistemas.Domain.csproj|solutionrelative:src\\ersistemas.domain\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,22 @@
               "RelativeDocumentMoniker": "src\\ERSistemas.Console\\Program.cs",
               "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
               "RelativeToolTip": "src\\ERSistemas.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T19:18:11.981Z",
+              "WhenOpened": "2026-08-14T13:33:33.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Domain\\Models\\Endereco.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.Domain\\Models\\Endereco.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Domain\\Models\\Endereco.cs",
+              "RelativeToolTip": "src\\ERSistemas.Domain\\Models\\Endereco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T13:50:25.557Z",
               "EditorCaption": ""
             }
           ]
