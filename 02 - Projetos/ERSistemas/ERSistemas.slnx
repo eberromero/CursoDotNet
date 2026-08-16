@@ -1,8 +1,11 @@
 <Solution>
   <Folder Name="/docs/" />
   <Folder Name="/src/">
+    <Project Path="src/ERSistemas.Application/ERSistemas.Application.csproj" Id="3ddc35da-ed9c-4e8a-b469-1e2cb784fcb4" />
     <Project Path="src/ERSistemas.Console/ERSistemas.Console.csproj" />
     <Project Path="src/ERSistemas.Domain/ERSistemas.Domain.csproj" Id="1ab8d78e-4ccb-4470-b17d-6c2c726fbb56" />
+    <Project Path="src/ERSistemas.Infrastructure/ERSistemas.Infrastructure.csproj" Id="84b07106-3a96-4915-9cf2-5faf75147174" />
+    <Project Path="src/ERSistemas.WinForms/ERSistemas.WinForms.csproj" Id="6b1d63a0-a10c-43c8-8ee0-415c53c436a4" />
   </Folder>
   <Folder Name="/tests/" />
 </Solution>

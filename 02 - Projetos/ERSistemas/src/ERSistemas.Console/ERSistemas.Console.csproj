@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ERSistemas.Application\ERSistemas.Application.csproj" />
     <ProjectReference Include="..\ERSistemas.Domain\ERSistemas.Domain.csproj" />
   </ItemGroup>
 </Project>

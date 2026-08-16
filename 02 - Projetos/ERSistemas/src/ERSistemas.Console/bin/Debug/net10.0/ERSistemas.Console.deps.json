@@ -8,10 +8,22 @@
     ".NETCoreApp,Version=v10.0": {
       "ERSistemas.Console/1.0.0": {
         "dependencies": {
+          "ERSistemas.Application": "1.0.0",
           "ERSistemas.Domain": "1.0.0"
         },
         "runtime": {
           "ERSistemas.Console.dll": {}
+        }
+      },
+      "ERSistemas.Application/1.0.0": {
+        "dependencies": {
+          "ERSistemas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ERSistemas.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ERSistemas.Domain/1.0.0": {
@@ -26,6 +38,11 @@
   },
   "libraries": {
     "ERSistemas.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ERSistemas.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

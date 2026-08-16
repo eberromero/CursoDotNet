@@ -1,7 +1,13 @@
-﻿using ERSistemas.Domain.Models;
+﻿using ERSistemas.Application.Services;
 using ERSistemas.Domain.Enums;
+using ERSistemas.Domain.Models;
 
-Pessoa pessoa = new Pessoa();
+PessoaService pessoaService = new PessoaService();
+
+Pessoa pessoa = pessoaService.Cadastrar(
+    "Empresa de Teste", 
+    "12.345.678/0001-99", 
+    TipoDocumento.CNPJ);
 
 Console.WriteLine("Cadastro de endereços");
 
@@ -10,10 +16,11 @@ endereco.TipoEndereco = TipoEndereco.Comercial;
 endereco.Nome = "Trabalho";
 endereco.Logradouro = "Rua Vitor Marcelo de Castro";
 endereco.Numero = "600";
+endereco.Bairro = "Parque Cidade Jardim 2";
 endereco.Cidade = "Jundiai";
 endereco.CEP = "13203-542";
 endereco.Estado = "SP";
-pessoa.Enderecos.Add(endereco);
+pessoa.AdicionarEndereco(endereco);
 
 Contato contato = new Contato();
 contato.Nome = "Comercial";
@@ -21,12 +28,9 @@ contato.TipoContato = TipoContato.WhatsApp;
 contato.Descricao = "(11) 99999-9999";
 contato.Observacao = "WhatsApp da empresa";
 contato.Principal = true;
-pessoa.Contatos.Add(contato);
+pessoa.AdicionarContato(contato);
 
-pessoa.NomeRazaoSocial = "Empresa de Teste";
-pessoa.Documento = "12.345.678/0001-99";
-pessoa.TipoDocumento = TipoDocumento.CNPJ;
-
+/* ==== CADASTRAR PESSOA ==== */
 
 Console.WriteLine();
 Console.WriteLine("===== DADOS DA PESSOA =====");

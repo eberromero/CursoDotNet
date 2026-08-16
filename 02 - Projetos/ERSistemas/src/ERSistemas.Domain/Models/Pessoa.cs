@@ -12,6 +12,28 @@ public class Pessoa
     public DateTime DataCadastro { get; set; } = DateTime.Now;
     public bool Ativo { get; set; } = true;
 
-    public List<Endereco> Enderecos { get; set; } = new();
-    public List<Contato> Contatos { get; set; } = new();
+    private readonly List<Endereco> _enderecos = new();
+    private readonly List<Contato> _contatos = new();
+
+    public IReadOnlyList<Endereco> Enderecos => _enderecos;
+    public IReadOnlyList<Contato> Contatos => _contatos;
+
+    public void AdicionarEndereco(Endereco endereco)
+    {
+        if (endereco == null)
+            throw new ArgumentNullException(nameof(endereco));
+
+        if (_enderecos.Contains(endereco))
+            throw new InvalidOperationException("Este endereço ja foi adicionado à pessoa.");
+        
+        
+        _enderecos.Add(endereco);
+    }
+    public void AdicionarContato(Contato contato)
+    {
+        if (contato == null)
+            throw new ArgumentNullException(nameof(contato));
+
+        _contatos.Add(contato);
+    }
 }
