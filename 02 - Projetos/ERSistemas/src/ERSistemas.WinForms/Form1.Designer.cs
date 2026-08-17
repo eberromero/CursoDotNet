@@ -110,6 +110,7 @@
             Controls.Add(txtNomeRazaoSocial);
             Controls.Add(lblNomeRazaoSocial);
             Name = "frmPessoa";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cadastro de Pessoa";
             ResumeLayout(false);
             PerformLayout();

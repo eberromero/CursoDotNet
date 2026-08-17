@@ -6,14 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "ERSistemas.Console/1.0.0": {
+      "ERSistemas.Infrastructure/1.0.0": {
         "dependencies": {
-          "ERSistemas.Application": "1.0.0",
-          "ERSistemas.Domain": "1.0.0",
-          "ERSistemas.Infrastructure": "1.0.0"
+          "Microsoft.Data.SqlClient": "7.0.2"
         },
         "runtime": {
-          "ERSistemas.Console.dll": {}
+          "ERSistemas.Infrastructure.dll": {}
         }
       },
       "Microsoft.Bcl.Cryptography/9.0.13": {
@@ -344,41 +342,11 @@
             "fileVersion": "9.0.1326.6317"
           }
         }
-      },
-      "ERSistemas.Application/1.0.0": {
-        "dependencies": {
-          "ERSistemas.Domain": "1.0.0"
-        },
-        "runtime": {
-          "ERSistemas.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "ERSistemas.Domain/1.0.0": {
-        "runtime": {
-          "ERSistemas.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "ERSistemas.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.Data.SqlClient": "7.0.2"
-        },
-        "runtime": {
-          "ERSistemas.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "ERSistemas.Console/1.0.0": {
+    "ERSistemas.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -543,21 +511,6 @@
       "sha512": "sha512-t8S9IDpjJKsLpLkeBdW8cWtcPyYqrGu93Dej1RO6WwuL/lkFSqWlan3rMJfortqz1mRIh+sys2AFsSA6jWJ3Jg==",
       "path": "system.security.cryptography.protecteddata/9.0.13",
       "hashPath": "system.security.cryptography.protecteddata.9.0.13.nupkg.sha512"
-    },
-    "ERSistemas.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ERSistemas.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ERSistemas.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

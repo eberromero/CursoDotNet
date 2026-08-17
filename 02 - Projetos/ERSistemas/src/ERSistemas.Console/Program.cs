@@ -1,7 +1,59 @@
 ﻿using ERSistemas.Application.Services;
 using ERSistemas.Domain.Enums;
 using ERSistemas.Domain.Models;
+using ERSistemas.Infrastructure.Database;
+using ERSistemas.Infrastructure.Database.Atualizacoes;
 
+string user = "sa";
+string pass = "J300916e&1";
+
+string connectionString = 
+    $"Server=localhost;Database=ERSistemas;User Id={user};Password={pass};TrustServerCertificate=True;";
+
+ConexaoBanco conexaoBanco = 
+    new ConexaoBanco(connectionString);
+
+Upd001 atualizacao = new Upd001();
+
+MigradorBanco migrador = new MigradorBanco(conexaoBanco);
+
+migrador.Executar(atualizacao);
+
+Console.WriteLine("Atualização Processada.");
+
+
+ValidadorBanco databaseValidator = new ValidadorBanco(conexaoBanco);
+
+using var connection = conexaoBanco.CriarConexao();
+
+connection.Open();
+
+Console.WriteLine("Conexão com o banco de dados estabelecida com sucesso!");
+
+bool exists = databaseValidator.DatabaseVersionExists();
+
+Console.WriteLine($"VersaoBanco existe: {exists}");
+
+
+
+
+
+//string caminhoScript =
+//    Path.Combine(
+//        AppContext.BaseDirectory,
+//        "Database",
+//        "Scripts",
+//        "001_CriarVersaoBanco.sql");
+
+//MigradorBanco databaseMigrator =
+//    new MigradorBanco(databaseConnection);
+
+//databaseMigrator.ExecutarScript(caminhoScript);
+
+
+//Console.WriteLine("Script executado com sucesso!");
+
+/*
 PessoaService pessoaService = new PessoaService();
 
 Pessoa pessoa = pessoaService.Cadastrar(
@@ -29,9 +81,11 @@ contato.Descricao = "(11) 99999-9999";
 contato.Observacao = "WhatsApp da empresa";
 contato.Principal = true;
 pessoa.AdicionarContato(contato);
+*/
 
 /* ==== CADASTRAR PESSOA ==== */
 
+/*
 Console.WriteLine();
 Console.WriteLine("===== DADOS DA PESSOA =====");
 
@@ -62,3 +116,4 @@ foreach (Contato item in pessoa.Contatos)
     Console.WriteLine("Observação: " + item.Observacao);
     Console.WriteLine("Principal: " + item.Principal);
 }
+*/

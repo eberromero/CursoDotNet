@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\database\\migradorbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\database\\migradorbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|solutionrelative:src\\ersistemas.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ersistemas.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|solutionrelative:src\\ersistemas.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|solutionrelative:src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T02:00:01.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\Form1.cs",
-              "RelativeDocumentMoniker": "src\\ERSistemas.WinForms\\Form1.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\Form1.cs",
-              "RelativeToolTip": "src\\ERSistemas.WinForms\\Form1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwB8AAAAgAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.Console\\Program.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
+              "RelativeToolTip": "src\\ERSistemas.Console\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T01:17:16.45Z",
+              "WhenOpened": "2026-08-17T13:29:58.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\Form1.cs",
-              "RelativeDocumentMoniker": "src\\ERSistemas.WinForms\\Form1.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\Form1.cs [Projeto]",
-              "RelativeToolTip": "src\\ERSistemas.WinForms\\Form1.cs [Projeto]",
+              "DocumentIndex": 0,
+              "Title": "MigradorBanco.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
+              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswEAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T01:00:47.902Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-08-17T14:17:35.513Z",
+              "EditorCaption": ""
             }
           ]
         }
