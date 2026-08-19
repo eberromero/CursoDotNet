@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\database\\migradorbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\database\\migradorbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.winforms\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|solutionrelative:src\\ersistemas.winforms\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\database\\atualizacoes\\upd003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\database\\atualizacoes\\upd003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.winforms\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B1D63A0-A10C-43C8-8EE0-415C53C436A4}|src\\ERSistemas.WinForms\\ERSistemas.WinForms.csproj|solutionrelative:src\\ersistemas.winforms\\frmsplash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|solutionrelative:src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\inicializadorsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\inicializadorsistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\progressoinicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\progressoinicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Upd003.cs",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
-              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
-              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "FrmSplash.cs [Projeto]",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\FrmSplash.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.WinForms\\FrmSplash.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\FrmSplash.cs [Projeto]",
+              "RelativeToolTip": "src\\ERSistemas.WinForms\\FrmSplash.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T13:30:38.818Z",
+              "WhenOpened": "2026-08-19T19:37:02.9Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProgressoInicializacao.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\ProgressoInicializacao.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\ProgressoInicializacao.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\ProgressoInicializacao.cs",
+              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\ProgressoInicializacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:09:45.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ERSistemas.Console\\Program.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
-              "RelativeToolTip": "src\\ERSistemas.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "InicializadorSistema.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\InicializadorSistema.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\InicializadorSistema.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\InicializadorSistema.cs",
+              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\InicializadorSistema.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T13:29:58.099Z",
+              "WhenOpened": "2026-08-19T19:07:01.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MigradorBanco.cs",
-              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
-              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
-              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
-              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "FrmSplash.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\FrmSplash.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.WinForms\\FrmSplash.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.WinForms\\FrmSplash.cs",
+              "RelativeToolTip": "src\\ERSistemas.WinForms\\FrmSplash.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T14:17:35.513Z",
+              "WhenOpened": "2026-08-19T18:15:30.824Z",
               "EditorCaption": ""
             }
           ]

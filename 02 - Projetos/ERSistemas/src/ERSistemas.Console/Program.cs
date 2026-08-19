@@ -22,6 +22,15 @@ Upd001 atualizacao = new Upd001();
 
 MigradorBanco migrador = new MigradorBanco(conexaoBanco);
 
-migrador.Executar();
+InicializadorBanco inicializadorBanco = new InicializadorBanco(migrador);
 
-Console.WriteLine("Banco atualizado com sucesso.");
+try
+{
+    inicializadorBanco.Inicializar();
+    Console.WriteLine("Banco inicializado com sucesso.");
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Erro ao inicializar o banco");
+    Console.WriteLine(ex.Message);
+}

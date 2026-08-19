@@ -22,6 +22,8 @@ public class MigradorBanco
 
         List<IAtualizacaoBanco> atualizacoes = ObterAtualizacoes();
 
+        ValidarAtualizacoes(atualizacoes);
+
         foreach (IAtualizacaoBanco atualizacao in atualizacoes)
         {
             ExecutarAtualizacao(connection, atualizacao, versaoAtual);
@@ -48,23 +50,25 @@ public class MigradorBanco
     }
     private void ExecutarAtualizacao(SqlConnection connection, IAtualizacaoBanco atualizacao, int versaoAtual)
     {
-        if (atualizacao.Versao <= versaoAtual)
-        {
-            return;
-        }
+        bool valido = atualizacao.Validar(connection);
 
-        if (atualizacao.Validar(connection))
+        if (valido)
         {
             return;
         }
-        
+                
         using SqlTransaction transaction = connection.BeginTransaction();
+
         try
         {
             string script = atualizacao.ObterScript();
             using SqlCommand command = new SqlCommand(script, connection, transaction);
             command.ExecuteNonQuery();
-            RegistrarVersao(connection, transaction, atualizacao);
+            
+            if (atualizacao.Versao > versaoAtual)
+            {
+                RegistrarVersao(connection, transaction, atualizacao);
+            }
             transaction.Commit();
         }
         catch
@@ -91,5 +95,26 @@ public class MigradorBanco
         string sql = """SELECT ISNULL(MAX(Versao), 0) FROM VersaoBanco""";
         using SqlCommand command = new SqlCommand(sql, connection);
         return Convert.ToInt32(command.ExecuteScalar());
+    }
+
+    public void ValidarAtualizacoes(List<IAtualizacaoBanco> atualizacoes)
+    {
+        HashSet<int> versoes = new HashSet<int>();
+
+        foreach (IAtualizacaoBanco atualizacao in atualizacoes)
+        {
+            if (!versoes.Add(atualizacao.Versao))
+            {
+                throw new Exception($"A versão {atualizacao.Versao} está duplicada.");
+            }
+        }
+        for (int i = 0; i < atualizacoes.Count; i++)
+        {
+            int versaoEsperada = i + 1;
+            if (atualizacoes[i].Versao != versaoEsperada)
+            {
+                throw new Exception($"Atualização de versão {versaoEsperada} não encontrada.");
+            }
+        }
     }
 }
