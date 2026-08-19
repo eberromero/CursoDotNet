@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\database\\migradorbanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.infrastructure\\database\\atualizacoes\\upd003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B07106-3A96-4915-9CF2-5FAF75147174}|src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj|solutionrelative:src\\ersistemas.infrastructure\\database\\atualizacoes\\upd003.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|c:\\estudos\\dotnet\\02 - projetos\\ersistemas\\src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B63460FB-4DC6-D4FB-9BE0-9819D528E364}|src\\ERSistemas.Console\\ERSistemas.Console.csproj|solutionrelative:src\\ersistemas.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Upd003.cs",
+              "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
+              "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
+              "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
+              "RelativeToolTip": "src\\ERSistemas.Infrastructure\\Database\\Atualizacoes\\Upd003.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:30:38.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
               "RelativeDocumentMoniker": "src\\ERSistemas.Console\\Program.cs",
               "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Console\\Program.cs",
               "RelativeToolTip": "src\\ERSistemas.Console\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T13:29:58.099Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
               "ToolTip": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
               "RelativeToolTip": "src\\ERSistemas.Infrastructure\\Database\\MigradorBanco.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAswEAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T14:17:35.513Z",
               "EditorCaption": ""

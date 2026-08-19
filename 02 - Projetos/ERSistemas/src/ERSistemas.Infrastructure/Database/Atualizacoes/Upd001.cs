@@ -10,17 +10,9 @@ public class Upd001 : IAtualizacaoBanco
         "Criação da tabela VersaoBanco";
     public bool Validar(SqlConnection connection)
     {
-        string sql = """
-            SELECT COUNT(*)
-            FROM INFORMATION_SCHEMA.TABLES
-            WHERE TABLE_NAME = 'VersaoBanco'
-            """;
-        
-        using SqlCommand command =
-            new SqlCommand(sql, connection);
-
+        string sql = """SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'VersaoBanco'""";
+        using SqlCommand command = new SqlCommand(sql, connection);
         int count = Convert.ToInt32(command.ExecuteScalar());
-
         return count > 0;
     }
 
