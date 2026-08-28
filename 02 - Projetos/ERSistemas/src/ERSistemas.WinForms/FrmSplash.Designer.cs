@@ -58,9 +58,9 @@
             // 
             picLogo.BackColor = Color.Transparent;
             picLogo.Image = (Image)resources.GetObject("picLogo.Image");
-            picLogo.Location = new Point(133, 41);
+            picLogo.Location = new Point(136, 54);
             picLogo.Name = "picLogo";
-            picLogo.Size = new Size(329, 133);
+            picLogo.Size = new Size(329, 117);
             picLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             picLogo.TabIndex = 5;
             picLogo.TabStop = false;
@@ -156,6 +156,7 @@
             Controls.Add(pnlFundo);
             ForeColor = Color.FromArgb(0, 0, 64);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FrmSplash";
@@ -163,7 +164,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ERSistemas";
             TopMost = true;
-            Activated += FrmSplash_Activated;
             Load += FrmSplash_Load;
             ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
             pnlFundo.ResumeLayout(false);

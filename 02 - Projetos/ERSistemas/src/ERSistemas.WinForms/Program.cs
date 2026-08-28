@@ -1,17 +1,41 @@
+using ERSistemas.Infrastructure;
+using ERSistemas.Infrastructure.Database;
+
 namespace ERSistemas.WinForms
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            System.Windows.Forms.Application.Run(new frmPessoa());
+
+            string server = "localhost";
+            string database = "ERSistemas";
+            string user = "sa";
+            string pass = "J300916e&1";
+
+            string connectionString =
+                $"Server={server};" +
+                $"Database={database};" +
+                $"User Id={user};" +
+                $"Password={pass};" +
+                $"TrustServerCertificate=True;";
+
+            ConexaoBanco conexaoBanco = new ConexaoBanco(connectionString);
+
+            MigradorBanco migradorBanco = new MigradorBanco(conexaoBanco);
+
+            InicializadorBanco inicializadorBanco = new InicializadorBanco(migradorBanco);
+
+            InicializadorSistema inicializadorSistema = new InicializadorSistema(inicializadorBanco);
+
+            FrmSplash splash = new FrmSplash(inicializadorSistema);
+            splash.ShowDialog();
+            if (splash.InicializacaoConcluida)
+            {
+                System.Windows.Forms.Application.Run(new frmPessoa());
+            }
         }
     }
 }

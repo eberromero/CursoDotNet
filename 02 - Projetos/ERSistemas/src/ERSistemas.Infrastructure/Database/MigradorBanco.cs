@@ -12,11 +12,12 @@ public class MigradorBanco
         _conexaoBanco = conexaoBanco;
     }
 
-    public void Executar()
+    public void Executar(IProgress<ProgressoInicializacao>? progresso = null)
     {
         using SqlConnection connection = _conexaoBanco.CriarConexao();
         
         connection.Open();
+        progresso?.Report(new ProgressoInicializacao(45, "Verificando banco de dados..."));
 
         int versaoAtual = ObterVersaoAtual(connection);
 
@@ -24,8 +25,13 @@ public class MigradorBanco
 
         ValidarAtualizacoes(atualizacoes);
 
-        foreach (IAtualizacaoBanco atualizacao in atualizacoes)
+        for (int i = 0; i < atualizacoes.Count; i++)
         {
+            IAtualizacaoBanco atualizacao = atualizacoes[i];
+
+            progresso?.Report(new ProgressoInicializacao(40,
+                    $"Verificando atualização {atualizacao.Versao}..."));
+
             ExecutarAtualizacao(connection, atualizacao, versaoAtual);
 
             if (atualizacao.Versao > versaoAtual)
@@ -92,9 +98,18 @@ public class MigradorBanco
 
     private int ObterVersaoAtual(SqlConnection connection)
     {
-        string sql = """SELECT ISNULL(MAX(Versao), 0) FROM VersaoBanco""";
+        string sql = """SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = 'VersaoBanco'""";
         using SqlCommand command = new SqlCommand(sql, connection);
-        return Convert.ToInt32(command.ExecuteScalar());
+        int existe = Convert.ToInt32(command.ExecuteScalar());
+
+        if (existe == 0)
+        {
+            return 0;
+        }
+
+        sql = """SELECT ISNULL(MAX(Versao), 0) FROM VersaoBanco""";
+        using SqlCommand commandVersao = new SqlCommand(sql, connection);
+        return Convert.ToInt32(commandVersao.ExecuteScalar());
     }
 
     public void ValidarAtualizacoes(List<IAtualizacaoBanco> atualizacoes)

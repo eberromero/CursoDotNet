@@ -12,9 +12,9 @@ public class InicializadorSistema
         progresso?.Report(new ProgressoInicializacao(10, "Inicializando o sistema..."));
         progresso?.Report(new ProgressoInicializacao(30, "Conectando ao banco de dados..."));
 
-        _inicializadorBanco.Inicializar();
+        _inicializadorBanco.Inicializar(progresso);
 
-        progresso?.Report(new ProgressoInicializacao(30, "Finalizando inicialização..."));
+        progresso?.Report(new ProgressoInicializacao(60, "Finalizando inicialização..."));
         progresso?.Report(new ProgressoInicializacao(100, "Sistema pronto!..."));
     }
 }

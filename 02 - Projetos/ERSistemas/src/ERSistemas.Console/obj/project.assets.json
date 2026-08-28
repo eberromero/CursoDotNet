@@ -466,7 +466,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "ERSistemas.Domain": "1.0.0"
+          "ERSistemas.Domain": "1.0.0",
+          "ERSistemas.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ERSistemas.Application.dll": {}
@@ -489,6 +490,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "ERSistemas.Domain": "1.0.0",
           "Microsoft.Data.SqlClient": "7.0.2"
         },
         "compile": {

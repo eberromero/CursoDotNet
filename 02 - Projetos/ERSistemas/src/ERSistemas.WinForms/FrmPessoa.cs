@@ -24,8 +24,7 @@ namespace ERSistemas.WinForms
                 string nomeRazaoSocial = txtNomeRazaoSocial.Text;
                 string documento = txtDocumento.Text;
 
-                TipoDocumento tipoDocumento =
-                    (TipoDocumento)cboTipoDocumento.SelectedItem;
+                TipoDocumento tipoDocumento = (TipoDocumento)cboTipoDocumento.SelectedItem;
 
                 Pessoa pessoa = _pessoaService.Cadastrar(nomeRazaoSocial, documento, tipoDocumento);
 

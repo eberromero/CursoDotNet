@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Domain\\ERSistemas.Domain.csproj": {
                 "projectPath": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Domain\\ERSistemas.Domain.csproj"
+              },
+              "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj": {
+                "projectPath": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Infrastructure\\ERSistemas.Infrastructure.csproj"
               }
             }
           }
@@ -1069,7 +1072,11 @@
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Domain\\ERSistemas.Domain.csproj": {
+                "projectPath": "C:\\Estudos\\DotNet\\02 - Projetos\\ERSistemas\\src\\ERSistemas.Domain\\ERSistemas.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

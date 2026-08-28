@@ -8,7 +8,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
 	<ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+	<AssemblyTitle></AssemblyTitle>
+	<ApplicationIcon>icone.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icone.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ERSistemas.Application\ERSistemas.Application.csproj" />

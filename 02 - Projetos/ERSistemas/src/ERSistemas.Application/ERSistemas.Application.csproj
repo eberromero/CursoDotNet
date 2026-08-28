@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ERSistemas.Domain\ERSistemas.Domain.csproj" />
+    <ProjectReference Include="..\ERSistemas.Infrastructure\ERSistemas.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

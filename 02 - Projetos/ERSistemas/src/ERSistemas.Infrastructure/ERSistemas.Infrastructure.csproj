@@ -13,5 +13,8 @@
   <ItemGroup>
     <Folder Include="Database\Scripts\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ERSistemas.Domain\ERSistemas.Domain.csproj" />
+  </ItemGroup>
 
 </Project>

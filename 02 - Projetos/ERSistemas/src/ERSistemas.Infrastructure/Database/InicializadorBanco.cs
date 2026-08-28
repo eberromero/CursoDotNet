@@ -8,8 +8,10 @@ public class InicializadorBanco
     {
         _migradorBanco = migradorBanco;
     }
-    public void Inicializar()
+    public void Inicializar(IProgress<ProgressoInicializacao>? progresso = null)
     {
+        progresso?.Report(new ProgressoInicializacao(40, "Verificando banco de dados..."));
         _migradorBanco.Executar();
+        progresso?.Report(new ProgressoInicializacao(50, "Verificando banco de dados..."));
     }
 }

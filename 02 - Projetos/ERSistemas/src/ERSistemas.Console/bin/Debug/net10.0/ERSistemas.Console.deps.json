@@ -347,7 +347,8 @@
       },
       "ERSistemas.Application/1.0.0": {
         "dependencies": {
-          "ERSistemas.Domain": "1.0.0"
+          "ERSistemas.Domain": "1.0.0",
+          "ERSistemas.Infrastructure": "1.0.0"
         },
         "runtime": {
           "ERSistemas.Application.dll": {
@@ -366,6 +367,7 @@
       },
       "ERSistemas.Infrastructure/1.0.0": {
         "dependencies": {
+          "ERSistemas.Domain": "1.0.0",
           "Microsoft.Data.SqlClient": "7.0.2"
         },
         "runtime": {
